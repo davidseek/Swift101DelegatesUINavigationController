@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		6C9260742137829B007E898A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9260732137829B007E898A /* AppDelegate.swift */; };
-		6C9260762137829B007E898A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9260752137829B007E898A /* ViewController.swift */; };
 		6C9260792137829B007E898A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C9260772137829B007E898A /* Main.storyboard */; };
 		6C92607B2137829E007E898A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C92607A2137829E007E898A /* Assets.xcassets */; };
 		6C92607E2137829E007E898A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C92607C2137829E007E898A /* LaunchScreen.storyboard */; };
+		6C926086213784D7007E898A /* OriginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C926085213784D7007E898A /* OriginController.swift */; };
+		6C926088213784F3007E898A /* TopBottomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C926087213784F3007E898A /* TopBottomController.swift */; };
+		6C92608A213784FE007E898A /* LeftRightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C926089213784FE007E898A /* LeftRightController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6C9260702137829B007E898A /* Swift101DelegatesUINavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift101DelegatesUINavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9260732137829B007E898A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6C9260752137829B007E898A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6C9260782137829B007E898A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C92607A2137829E007E898A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C92607D2137829E007E898A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C92607F2137829E007E898A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C926085213784D7007E898A /* OriginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginController.swift; sourceTree = "<group>"; };
+		6C926087213784F3007E898A /* TopBottomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBottomController.swift; sourceTree = "<group>"; };
+		6C926089213784FE007E898A /* LeftRightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftRightController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		6C9260722137829B007E898A /* Swift101DelegatesUINavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				6C926085213784D7007E898A /* OriginController.swift */,
+				6C926087213784F3007E898A /* TopBottomController.swift */,
+				6C926089213784FE007E898A /* LeftRightController.swift */,
 				6C9260732137829B007E898A /* AppDelegate.swift */,
-				6C9260752137829B007E898A /* ViewController.swift */,
 				6C9260772137829B007E898A /* Main.storyboard */,
 				6C92607A2137829E007E898A /* Assets.xcassets */,
 				6C92607C2137829E007E898A /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C9260762137829B007E898A /* ViewController.swift in Sources */,
 				6C9260742137829B007E898A /* AppDelegate.swift in Sources */,
+				6C92608A213784FE007E898A /* LeftRightController.swift in Sources */,
+				6C926086213784D7007E898A /* OriginController.swift in Sources */,
+				6C926088213784F3007E898A /* TopBottomController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
